@@ -1,5 +1,8 @@
 origin : https://github.com/flutter/samples/tree/main/testing_app
 
+I wanted to do *fork*, but there are a lot of samples in [origin repo](https://github.com/flutter/samples),
+so I've only been fetching only *testing_app*.
+
 ----
 
 # testing_app
