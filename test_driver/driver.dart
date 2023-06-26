@@ -18,7 +18,10 @@ Future<void> main() async {
       onScreenshot: (name, image, [args]) async {
         final File imageFile = await File('screenshots/$name.png').create(recursive: true);
 
+        print('imageFile.writeAsBytes');
         await imageFile.writeAsBytes(image);
+
+        print('scuccc');
 
         return true;
       },
