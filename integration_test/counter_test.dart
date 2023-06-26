@@ -30,6 +30,8 @@ void main() {
     });
   });
 
+  /// flutter drive --driver=integration_test/driver.dart --target=integration_test/counter_test.dart -d ${YOUR_DEVICE}
+  /// import 주의: flutter/widgets.dart, flutter/foundation.dart 하면 안됨
   group('Screenshot Test', () {
     testWidgets('Increment', (tester) async {
       app.main();
