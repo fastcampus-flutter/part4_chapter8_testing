@@ -17,7 +17,7 @@ dependencies:
 
 dev_dependencies:
   analysis_defaults:
-    path: ../analysis_defaults
+    path: analysis_defaults
   integration_test:
     sdk: flutter
   flutter_driver:
